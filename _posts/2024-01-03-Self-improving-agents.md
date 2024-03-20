@@ -1,3 +1,7 @@
+---
+layout: page
+---
+
 A fundamental characteristic of an AI agent is its intelligence in taking actions, checking outcomes against those actions, and improving itself if those actions result in divergence from its goals. Self-improvement, where an agent autonomously improves its own functioning, has intrigued the AI community for several decades.We believe that building robust agent-based systems that are scalable and maintainable requires that agents can autonomously adapt and improve. Self-improvement can happen at multiple levels of sophistication. For simplicity of exploration, let us consider two categories of improvement:
 
 * **Narrow self-improvement**: In this category, an agent improves its performance within the context of a fixed operating environment or goal. A simple form of such narrow improvement is an LLM-based agent that monitors its own performance and can autonomously kick off a fine-tuning loop to retrain its LLM on a new dataset when it detects that its performance is deviating from an acceptable range. Such agents can adapt, for example, to data distribution mismatches without fundamental changes in agent architecture, training algorithm, etc.
