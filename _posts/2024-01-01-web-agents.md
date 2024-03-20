@@ -1,3 +1,7 @@
+---
+layout: page
+---
+
 # AutoWeb: Distilling the web for multi-agent automation<a id="autoweb-distilling-the-web-for-multi-agent-automation"></a>
 
 ## Introduction
