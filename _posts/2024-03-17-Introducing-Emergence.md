@@ -38,7 +38,7 @@ We believe that in order for agents to be used to build truly intelligent, scala
 
 5) **Self-Improvement:** it has an innate desire to maximize its utility and hence self-improve itself on the task that it was created for.
 
-6) **Security:** it protects itself from being compromised or destroyed. It can be trusted to do no harm to other agents nor the environment it is operating in. Agents _in a system_ will adhere to an organizational framework called agent oriented programming (AOP). The comprehensive tenets of this framework can be found here _(ref 2)_. |
+6) **Security:** it protects itself from being compromised or destroyed. It can be trusted to do no harm to other agents nor the environment it is operating in. Agents _in a system_ will adhere to an organizational framework called agent oriented programming (AOP). The comprehensive tenets of this framework can be found here _(ref 2)_.
 
 Our AOP framework is inspired by the pillars of object-oriented programming (OOP, ref 1) which played a significant role in the development and evolution of several popular programming languages like C++, Java, Python, and more. Just as these languages are the bedrocks of modern software development, we hope that AOP will enable the development of new classes of agents, systems, and agent frameworks. 
 
