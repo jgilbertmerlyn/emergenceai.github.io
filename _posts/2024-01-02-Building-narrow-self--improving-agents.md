@@ -1,3 +1,7 @@
+---
+layout: page
+---
+
 A number of enterprise workflows involving language- and tool-control tasks can be augmented with LLM- and LVM-powered agents. Given the diversity of input scenarios in enterprise tasks involving language and tool control, these agents need to improve constantly as they encounter new configurations and inputs in their environment. Broadly, self improvement can take two forms \[Ref Self-improvement-blog]:
 
 1) **Narrow self-improvement**: This category involves agents which improve their performance within the context of a fixed operating environment or goal. The agents are not expected to learn or exhibit new capabilities that are outside the scope of their respective goals.
