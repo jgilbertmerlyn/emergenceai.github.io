@@ -1,6 +1,5 @@
 ---
 layout: page
-image: /_docs/_assets/_images/chart.png
 ---
 
 ## **Introduction:**
