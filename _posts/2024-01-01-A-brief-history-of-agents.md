@@ -1,3 +1,7 @@
+---
+layout: page
+---
+
 The concept of a software agent can be traced back to the model Hewitt, et al. \[1] proposed as representing a self-contained, interactive, and concurrently-executing object which was called an ‘actor’. This object had some encapsulated internal state and could respond to messages from other similar objects: by Hewitt’s definition, an actor “is a computational agent which has a mail address and a behaviour. Actors communicate by message-passing and carry out their actions concurrently.”
 
 The notion of agency (the idea that an object can go and carry out an action concurrently with other similar objects) eventually evolved into the concept of intelligent agents that used AI to perform some complex decision-making. However, these agents were still of lower capability than ours today, as they made tactical decisions at various points in workflows without keeping in mind a notion of some larger goal. Most recently, we’ve seen the advent of autonomous agents that maintain a larger goal, can sense their environments, and can react to the state of that environment in order to progress toward their goal.
