@@ -2,7 +2,7 @@
 layout: page
 ---
 
-A number of enterprise workflows involving language- and tool-control tasks can be augmented with LLM- and LVM-powered agents. Given the diversity of input scenarios in enterprise tasks involving language and tool control, these agents need to improve constantly as they encounter new configurations and inputs in their environment. Broadly, self improvement can take two forms \[Ref Self-improvement-blog]:
+A number of enterprise workflows involving language- and tool-control tasks can be augmented with LLM- and LVM-powered agents. Given the diversity of input scenarios in enterprise tasks involving language and tool control, these agents need to improve constantly as they encounter new configurations and inputs in their environment. Broadly, [self improvement](https://blog.emergence.ai/2024/03/19/Self-improving-agents.html) can take two forms:
 
 1) **Narrow self-improvement**: This category involves agents which improve their performance within the context of a fixed operating environment or goal. The agents are not expected to learn or exhibit new capabilities that are outside the scope of their respective goals.
 
@@ -39,7 +39,7 @@ Based on the above framework, Emergence is building a runtime (see figure below)
     <img src="https://raw.githubusercontent.com/jgilbertmerlyn/emergenceai.github.io/main/_docs/_assets/_images/selfimpruntime.png" width="600px"
          alt="Agent anatomy.">
 
-Self-improvement is one of the core aspects of an AI agent. By continuously learning, adapting, and optimizing their actions, these agents can help us make better decisions, streamline processes, and ultimately bring huge productivity gains in human-agent workflows. However, it is important to approach the development and deployment of self-improving agents carefully to ensure that the self-improvement process always meets the agent’s goals and does not cause unnecessary inefficiencies. Further, any self-improvement needs to be enabled with caution, ensuring that ethical considerations, transparency, and accountability are prioritized \[Ref Self-improvement-blog].
+Self-improvement is one of the core aspects of an AI agent. By continuously learning, adapting, and optimizing their actions, these agents can help us make better decisions, streamline processes, and ultimately bring huge productivity gains in human-agent workflows. However, it is important to approach the development and deployment of self-improving agents carefully to ensure that the self-improvement process always meets the agent’s goals and does not cause unnecessary inefficiencies. Further, any self-improvement needs to be enabled with caution, ensuring that [ethical considerations, transparency, and accountability are prioritized](https://blog.emergence.ai/2024/03/19/Self-improving-agents.html).
 
 ## **References**
 
