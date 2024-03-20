@@ -14,7 +14,7 @@ Now consider an agent that relies on data augmentation (as in our first example)
 
 Fundamentally, self-improvement can be abstracted into either acquisition or improvement of a variety of capabilities within the scope of an agent’s goals. Whether it is narrow or broad self-improvement, the acquisition and enhancement of capabilities need to done systematically to maximize the goal achievement, while ensuring that the capabilities learnt will not allow the agents to perform actions that violate the values the agent is expected to uphold.Value Alignment refers to the problem of ensuring that AI systems produce outcomes that are consistent with human values and preferences. While there has been much well-known recent work on the alignment of “static” non-self-improving agents, the problem of aligning self-improving agents is significantly harder and more critical.
 
-As a thought experiment, consider a formalized notion of intelligence defined in \[3], where $\mu$ is the environment and $\pi$ is the agent policy, the intelligence $\Upsilon$ is a discounted product of the Kolmogorov complexity K of the environment and value function V.
+As a thought experiment, consider a formalized notion of intelligence defined in \[3], where $\mu$ is the environment and $\pi$ is the agent policy, the intelligence $\Upsilon$ is a discounted product of the Kolmogorov complexity $K$ of the environment and value function $V$.
 
 Briefly, the above argues for a universal prior over environments/goals ordered by complexity, with an agent’s intelligence measured by a weighted sum of performance over this set. Let’s consider how self-improvement and alignment may fit in the above.
 
