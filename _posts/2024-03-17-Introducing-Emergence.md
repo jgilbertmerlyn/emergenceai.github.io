@@ -22,11 +22,11 @@ Agents have some functional capacity to plan, reason, and remember. They are the
 
 There has been a lot of research in this space over the last couple of decades. However, the advent of LLM- and LVM-based AI agents promises to advance this field rapidly, improving the capabilities of agents in all the aspects mentioned above. 
 
-We believe that in order for agents to be used to build truly intelligent, scalable systems, they must meet a specific benchmark in the characteristics they possess and the ways they organize together (**_ref 1: Anatomy of an agent_**). 
+We believe that in order for agents to be used to build truly intelligent, scalable systems, they must meet a specific benchmark in the characteristics they possess and the ways they organize together (_[ref 1](https://blog.emergence.ai/2024/03/18/The-anatomy-of-agents.html)_). 
 
  **The Definition of an Agent**
  
- An agent has _(ref 1)_:
+ An agent has _([ref 1](https://blog.emergence.ai/2024/03/18/The-anatomy-of-agents.html))_:
  
  1) **Autonomy:** it is a self-operating, interactive entity with its own state, behavior, and decision-making capabilities.
 
@@ -50,7 +50,7 @@ Our aim is to unify the technical community around a singular definition of an a
 
 Emergence’s first set of releases into the open source community include two web agents. The first allows computers to translate natural language commands into actions on web pages (like clicking on links, playing videos, or searching websites). The second is a multi-tool agent framework, built on LLMs, whose purpose is to enable tools and LLMs to be integrated into agent systems following our AOP framework. 
 
-We are also working on releasing the first version of our self-improvement protocol for agents (ref 2&3). We believe that this self-improvement functionality within agents could eventually result in the emergence of truly autonomous agents and systems. 
+We are also working on releasing the first version of our self-improvement protocol for agents (ref [2](https://blog.emergence.ai/2024/03/19/Self-improving-agents.html) & [3](https://blog.emergence.ai/2024/03/20/Building-narrow-self-improving-agents.html)). We believe that this self-improvement functionality within agents could eventually result in the emergence of truly autonomous agents and systems. 
 
 Our longer-term roadmap includes (a) the development of agents powered by LLMs and LVMs that will sit natively in devices like smartphones and laptops, and (b) the creation of agents that will navigate the web and perform a variety of tasks for consumers and enterprises. Of particular interest to us are a variety of back-office document-processing tasks, including claims analysis and domain-specific summarization.
 
