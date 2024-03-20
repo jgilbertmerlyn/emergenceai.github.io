@@ -48,7 +48,7 @@ To enable efficient programming of agent-based systems, some of the base charact
          
 In conclusion, developing the right abstractions and templates for agent-oriented programming is important to ensure that we can build systems that can scale, that their components are reusable, and that they are interoperable and safe to operate. We believe that building this framework is going to be an extremely complex endeavor and that the best way to build it is in the open source community. We will be doing our part by subsequently releasing pieces of our larger framework into the community, in the hope of rallying like-minded developers around the project. In our next blog, we delve deeper into self-improvement, a characteristic fundamental to any agent, and its potential tradeoff with goals for alignment.
 
-## <a id="ref">References</a>
+## <a id="ref"></a>References
 
 1. Hewitt, C. (1977), “Viewing Control Structures as Patterns of Passing Messages”, Artificial Intelligence 8(3), 323-364.
 
