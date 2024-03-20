@@ -43,8 +43,9 @@ Similarly, we are on the cusp of another evolution in programming paradigms with
 
 To enable efficient programming of agent-based systems, some of the base characteristics of an agent need to be available as superclass templates. Developers can derive from these and reuse concepts rapidly as well as maintain a semblance of uniformity in how agents are defined and programmed. \[5] is an example of an agent communication and collaboration paradigm which has made it extremely easy to build multi-agent collaboration systems. However, many more base characteristics of agents need to be standardized and frameworks built to enable large-scale agent-oriented programming paradigms. A few of these are as shown in the figure below. For example, _security templates_ are a must-have to ensure that agents are born with alignment to some basic constitution and rules of the game. Similarly, _self-improvement_ is inherent to an agent since it needs to continuously improve itself on its task. However, self-improvement is connected to changing the capabilities of an agent, and we need to ensure that whatever tools, child agents, or code that an agent creates to self-improve, they adhere to some properties of goodness and the agent’s constitution. Therefore, alignment is very closely connected to self-improvement.
 
-An Agent Abstraction Hierarchy
-
+<img src="https://raw.githubusercontent.com/jgilbertmerlyn/emergenceai.github.io/main/_docs/_assets/_images/abstr-hier.png" width="1000px"
+         alt="An agent abstraction hierarchy.">
+         
 In conclusion, developing the right abstractions and templates for agent-oriented programming is important to ensure that we can build systems that can scale, that their components are reusable, and that they are interoperable and safe to operate. We believe that building this framework is going to be an extremely complex endeavor and that the best way to build it is in the open source community. We will be doing our part by subsequently releasing pieces of our larger framework into the community, in the hope of rallying like-minded developers around the project. In our next blog, we delve deeper into self-improvement, a characteristic fundamental to any agent, and its potential tradeoff with goals for alignment.
 
 ## References
