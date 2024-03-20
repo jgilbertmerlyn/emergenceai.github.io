@@ -6,7 +6,7 @@ The concept of a software agent can be traced back to the model Hewitt, et al. \
 
 The notion of agency (the idea that an object can go and carry out an action concurrently with other similar objects) eventually evolved into the concept of intelligent agents that used AI to perform some complex decision-making. However, these agents were still of lower capability than ours today, as they made tactical decisions at various points in workflows without keeping in mind a notion of some larger goal. Most recently, we’ve seen the advent of autonomous agents that maintain a larger goal, can sense their environments, and can react to the state of that environment in order to progress toward their goal.
 
-One of the earliest definitions of an autonomous agent, given by \[2], is: an autonomous agent is a system situated within and a part of an environment that senses that environment and acts on it, over time, in pursuit of its own agenda and so as to affect what it senses in the future.
+One of the earliest definitions of an autonomous agent, given by <a href="#ref">\[2]</a>, is: an autonomous agent is a system situated within and a part of an environment that senses that environment and acts on it, over time, in pursuit of its own agenda and so as to affect what it senses in the future.
 
 ## Defining Characteristics
 
@@ -48,7 +48,7 @@ To enable efficient programming of agent-based systems, some of the base charact
          
 In conclusion, developing the right abstractions and templates for agent-oriented programming is important to ensure that we can build systems that can scale, that their components are reusable, and that they are interoperable and safe to operate. We believe that building this framework is going to be an extremely complex endeavor and that the best way to build it is in the open source community. We will be doing our part by subsequently releasing pieces of our larger framework into the community, in the hope of rallying like-minded developers around the project. In our next blog, we delve deeper into self-improvement, a characteristic fundamental to any agent, and its potential tradeoff with goals for alignment.
 
-## References
+## <a id="ref">References</a>
 
 1. Hewitt, C. (1977), “Viewing Control Structures as Patterns of Passing Messages”, Artificial Intelligence 8(3), 323-364.
 
