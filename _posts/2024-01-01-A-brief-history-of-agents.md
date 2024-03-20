@@ -4,8 +4,7 @@ The notion of agency (the idea that an object can go and carry out an action con
 
 One of the earliest definitions of an autonomous agent, given by \[2], is: an autonomous agent is a system situated within and a part of an environment that senses that environment and acts on it, over time, in pursuit of its own agenda and so as to affect what it senses in the future.
 
-
-#### Defining Characteristics<a id="defining-characteristics"></a>
+## Defining Characteristics
 
 Agents have been defined in various ways and have been a point of discussion for some time now, especially after the introduction of large language models (LLMs) \[3, 4, 5] and large vision models (LVMs) \[6]. It is useful to have one encompassing definition that is extensible as well as expressive, building on commonly understood concepts from the past. For Emergence’s definition of our notion of an agent, we refer back to a few basic principles that embody an agent, and we use them to develop the notion of an “agent object” in the world of LLMs and LVMs. We’ve distilled the following primary concepts that need to be embodied by an agent object in order for them to be programmed scalably to build robust systems.
 
@@ -23,8 +22,7 @@ Agents have been defined in various ways and have been a point of discussion for
 
 Definition of an Agent Object
 
-
-#### Agent-Oriented Programming<a id="agent-oriented-programming"></a>
+## Agent-Oriented Programming
 
 Programming paradigms such as object-oriented programming (OOP) evolved from the need to design and develop code that was highly reusable, maintainable, and scalable. Simula, which came out in the 60s, is generally thought to be the first OOP language. However, it was not until the 80s that the use of OOP concepts to develop large-scale enterprise-class software became mainstream, with the introduction of C++ (80s) and later Java (90s). Even though COBOL and FORTRAN were extremely popular in the 70s for enterprise software, their key strengths were as means of accounting (COBOL) and scientific programming (FORTRAN), not as general-purpose OOP languages. The true power and deployment of OOP software in enterprise came to the fore with the advent of Java and Java Beans.
 
@@ -44,8 +42,7 @@ An Agent Abstraction Hierarchy
 
 In conclusion, developing the right abstractions and templates for agent-oriented programming is important to ensure that we can build systems that can scale, that their components are reusable, and that they are interoperable and safe to operate. We believe that building this framework is going to be an extremely complex endeavor and that the best way to build it is in the open source community. We will be doing our part by subsequently releasing pieces of our larger framework into the community, in the hope of rallying like-minded developers around the project. In our next blog, we delve deeper into self-improvement, a characteristic fundamental to any agent, and its potential tradeoff with goals for alignment.
 
-
-#### References<a id="references"></a>
+## References
 
 1. Hewitt, C. (1977), “Viewing Control Structures as Patterns of Passing Messages”, Artificial Intelligence 8(3), 323-364.
 
