@@ -24,7 +24,10 @@ Agents have been defined in various ways and have been a point of discussion for
 
 6. **Memory:** An agent needs to have long-term memory (LTM) of its past interactions and successfully past means of completing its task. LTM can help to greatly reduce the amount of computing that an agent has to perform in order to complete a new task by referencing relevant past plans and actions. The memory is also the place where an agent can store human demonstrations it has seen, which can expedite its progress without as rigorous a planning and reasoning loop. An agent also has short-term memory, which is typically its current context signified by prompts and any information available in its context length.
 
-Definition of an Agent Object
+<figure>
+    <img src="/_docs/_assets/_images/agentanat.png" width="600px"
+         alt="Agent anatomy.">
+</figure>
 
 ## Agent-Oriented Programming
 
