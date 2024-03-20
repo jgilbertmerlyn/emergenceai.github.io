@@ -36,6 +36,11 @@ Based on the above framework, Emergence is building a runtime (see figure below)
 
 * _Deployment_: Once the training metrics are validated, Agent-A deploys itself on the production infrastructure where it is monitored in an A/B testing scenario, and it replaces its previous clone once a performance metric is met.
 
+<figure>
+    <img src="/_docs/_assets/_images/selfimpruntime.png" width="600px"
+         alt="Agent anatomy.">
+</figure>
+
 Self-improvement is one of the core aspects of an AI agent. By continuously learning, adapting, and optimizing their actions, these agents can help us make better decisions, streamline processes, and ultimately bring huge productivity gains in human-agent workflows. However, it is important to approach the development and deployment of self-improving agents carefully to ensure that the self-improvement process always meets the agent’s goals and does not cause unnecessary inefficiencies. Further, any self-improvement needs to be enabled with caution, ensuring that ethical considerations, transparency, and accountability are prioritized \[Ref Self-improvement-blog].
 
 ## **References**
