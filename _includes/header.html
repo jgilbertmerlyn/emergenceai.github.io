@@ -7,7 +7,7 @@
     <a class="site-title" rel="author" href="//www.emergence.ai">
       <img src="https://assets-global.website-files.com/65f013e864fdd3a9bd005229/65f06dfbe1bcbc91bffd762e_emergence-logo.svg"></img>  
     </a>
-
+    <br />
     <div class="trigger">
           {%- for path in page_paths -%}
             {%- assign my_page = site.pages | where: "path", path | first -%}
@@ -28,14 +28,14 @@
           </span>
         </label>
     
-        <div class="trigger">
+       <!-- <div class="trigger">
           {%- for path in page_paths -%}
             {%- assign my_page = site.pages | where: "path", path | first -%}
             {%- if my_page.title -%}
             <a class="page-link" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a>
             {%- endif -%}
           {%- endfor -%}
-        </div>
+        </div> -->
         
       </nav>
     {%- endif -%}
