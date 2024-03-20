@@ -20,6 +20,9 @@ Fundamentally, self-improvement can be abstracted into either acquisition or imp
 
 As a thought experiment, consider a formalized notion of intelligence defined in \[3], where $\mu$ is the environment and $\pi$ is the agent policy, the intelligence $\Upsilon$ is a discounted product of the Kolmogorov complexity $K$ of the environment and value function $V$.
 
+ <img src="https://raw.githubusercontent.com/jgilbertmerlyn/emergenceai.github.io/main/_docs/_assets/_images/eq01.png" width="200px"
+         alt="Equation 1.">
+
 Briefly, the above argues for a universal prior over environments/goals ordered by complexity, with an agent’s intelligence measured by a weighted sum of performance over this set. Let’s consider how self-improvement and alignment may fit in the above.
 
 * Roughly, per the above, an intelligent agent should perform well in simple environments (which have higher probabilities based on shorter description lengths), and reasonably well compared to other agents in more complex environments. Therefore self-improvement policy of agents should optimize for this behavior.
@@ -34,9 +37,18 @@ Briefly, the above argues for a universal prior over environments/goals ordered 
 
 Per this thought experiment, an incorporation of misalignment is given by the following aligned intelligence $\Sigma$. We assume a new value function $V\prime$ which incorporates the reward for being aligned to $\sigma$.
 
+ <img src="https://raw.githubusercontent.com/jgilbertmerlyn/emergenceai.github.io/main/_docs/_assets/_images/eq02.png" width="300px"
+         alt="Equation 2.">
+
 A possible reward function that uses $D$, the distance measure between the agent policy $\pi$ and alignment policy distribution $\sigma$, where larger distances (misalignment) are penalized is as shown below where $R\_i$ is an appropriate reward function defined to capture the distance of rewards between $\sigma$ and $\pi$. For example, a simple distance reward could be $2^-D(\sigma, \pi)$ where for small distances it goes to $1$ and for large distances, it goes to $0$.
 
+ <img src="https://raw.githubusercontent.com/jgilbertmerlyn/emergenceai.github.io/main/_docs/_assets/_images/largeeq.png" width="600px"
+         alt="Equation 3.">
+
 From the expression above, a policy that provides the agent with large rewards from the environment but is not aligned with its constitutional imperatives, will yield a lower overall value. Whereas, if both the alignment and environment rewards are in line, the (modified) value function can be large even though the environment reward may have been lower to start with.
+
+ <img src="https://raw.githubusercontent.com/jgilbertmerlyn/emergenceai.github.io/main/_docs/_assets/_images/chart.png" width="600px"
+         alt="Chart.">
 
 By continuously learning, adapting, and optimizing their actions, agents can make better decisions, streamline processes, and ultimately bring in huge productivity gains in enterprise workflows. However, it is important to approach the development and deployment of self-improving agents with caution, ensuring that ethical considerations, transparency, and accountability are prioritized. Since alignment to a constitution by an agent could be a conflicting goal with continuous self-improvement, it is important to ensure that self-improvement is done more systematically.
 
