@@ -52,7 +52,7 @@ Emergence’s first set of releases into the open source community include two w
 
 We are also working on releasing the first version of our self-improvement protocol for agents (ref 2&3). We believe that this self-improvement functionality within agents could eventually result in the emergence of truly autonomous agents and systems. 
 
-Our longer-term roadmap includes (a) the development of agents powered by LLMs and LVMs that will sit natively in devices like smartphones and laptops, and (b) the creation of agents that will perform back-office document-processing tasks like claims analysis and domain-specific summarization.
+Our longer-term roadmap includes (a) the development of agents powered by LLMs and LVMs that will sit natively in devices like smartphones and laptops, and (b) the creation of agents that will navigate the web and perform a variety of tasks for consumers and enterprises. Of particular interest to us are a variety of back-office document-processing tasks, including claims analysis and domain-specific summarization.
 
 ## **Task and Domain Specific LLMs**
 
