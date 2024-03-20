@@ -22,7 +22,7 @@ title: Emergence Journal
 email: hello@emergence.ai
 description: >- # this means to ignore newlines until "baseurl:"
   In the Emergence Journal, our technical team members share their work in agent science and other fields on the forefront of AI.
-baseurl: "/emergenceai.github.io" # the subpath of your site, e.g. /blog
+baseurl: "/" # the subpath of your site, e.g. /blog
 url: "https://jgilbertmerlyn.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Build settings
