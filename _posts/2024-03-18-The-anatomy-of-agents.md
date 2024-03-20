@@ -27,7 +27,7 @@ Agents have been defined in various ways and have been a point of discussion for
     <img src="https://raw.githubusercontent.com/jgilbertmerlyn/emergenceai.github.io/main/_docs/_assets/_images/agentanat.png" width="600px"
          alt="Agent anatomy.">
 
-## Agent-Oriented Programming
+## Agent-Oriented Programming (revisited for the LLM era)
 
 Programming paradigms such as object-oriented programming (OOP) evolved from the need to design and develop code that was highly reusable, maintainable, and scalable. Simula, which came out in the 60s, is generally thought to be the first OOP language. However, it was not until the 80s that the use of OOP concepts to develop large-scale enterprise-class software became mainstream, with the introduction of C++ (80s) and later Java (90s). Even though COBOL and FORTRAN were extremely popular in the 70s for enterprise software, their key strengths were as means of accounting (COBOL) and scientific programming (FORTRAN), not as general-purpose OOP languages. The true power and deployment of OOP software in enterprise came to the fore with the advent of Java and Java Beans.
 
