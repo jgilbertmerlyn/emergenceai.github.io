@@ -14,7 +14,6 @@ In venturing to understand why the new class of LLM-based AI agents is so promis
 
   <img src="https://raw.githubusercontent.com/jgilbertmerlyn/emergenceai.github.io/main/_docs/_assets/_images/agentanat.png" width="600px"
          alt="Agent anatomy.">
-
 _Agents (their anatomy pictured above) are building blocks which can communicate with each other and with humans in natural language, can control tools, and can perform actions in the digital or physical world._
 
 Agents have some functional capacity to plan, reason, and remember. They are the building blocks upon which scalable, intelligent systems can be built. Such systems, comprised of one or more agents, can profoundly reshape our ideas of what computers can do for us. These systems can transform many aspects of human interaction with computers, with profound implications for how we use computers, how we interact with them, and what they can do for us. These could range from asking systems of agents in natural language to perform a variety of actions such as book travel, plan vacation or purchase items, to asking systems to process claims and work across various applications on a smartphone or laptop and complete complex tasks for people, all with simple human commands issued in natural language.
