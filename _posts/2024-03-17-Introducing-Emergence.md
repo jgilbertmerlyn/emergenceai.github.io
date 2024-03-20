@@ -90,5 +90,7 @@ Ultimately, Emergence’s mission is to advance AI and create useful, intelligen
 ### References
 
 1) [The Anatomy of Agents](https://blog.emergence.ai/2024/03/18/The-anatomy-of-agents.html)
+   
 2) [Self Improving Agents](https://blog.emergence.ai/2024/03/19/Self-improving-agents.html)
+   
 3) [Building Narrow Self Improving Agents](https://blog.emergence.ai/2024/03/20/Building-narrow-self-improving-agents.html)
