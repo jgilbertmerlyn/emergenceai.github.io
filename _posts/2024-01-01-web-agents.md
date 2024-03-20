@@ -1,3 +1,9 @@
+---
+layout: jekyll
+title:   "My Post"
+varA: default
+---
+
 # AutoWeb: Distilling the web for multi-agent automation<a id="autoweb-distilling-the-web-for-multi-agent-automation"></a>
 
 ## Introduction
