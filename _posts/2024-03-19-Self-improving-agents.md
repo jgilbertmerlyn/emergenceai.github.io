@@ -42,7 +42,7 @@ Per this thought experiment, an incorporation of misalignment is given by the fo
  <img src="https://raw.githubusercontent.com/jgilbertmerlyn/emergenceai.github.io/main/_docs/_assets/_images/eq02.png" width="300px"
          alt="Equation 2.">
 
-A possible reward function that uses $D$, the distance measure between the agent policy $\pi$ and alignment policy distribution $\sigma$, where larger distances (misalignment) are penalized is as shown below where $R\_i$ is an appropriate reward function defined to capture the distance of rewards between $\sigma$ and $\pi$. For example, a simple distance reward could be $2^-D(\sigma, \pi)$ where for small distances it goes to $1$ and for large distances, it goes to $0$.
+A possible reward function that uses $D$, the distance measure between the agent policy $\pi$ and alignment policy distribution $\sigma$, where larger distances (misalignment) are penalized is as shown below where $R\_i$ is an appropriate reward function defined to capture the distance of rewards between $\sigma$ and $\pi$. For example, a simple distance reward could be $2^{-D(\sigma, \pi)}$ where for small distances it goes to $1$ and for large distances, it goes to $0$.
 
  <img src="https://raw.githubusercontent.com/jgilbertmerlyn/emergenceai.github.io/main/_docs/_assets/_images/largeeq.png" width="600px"
          alt="Equation 3.">
