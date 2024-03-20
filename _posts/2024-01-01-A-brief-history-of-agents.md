@@ -54,7 +54,7 @@ In conclusion, developing the right abstractions and templates for agent-oriente
 
 3. Shen, Y., Song, K., Tan, X., Li, D., Lu, W., & Zhuang, Y. (2024). Hugginggpt: Solving ai tasks with chatgpt and its friends in hugging face. _Advances in Neural Information Processing Systems_, _36_.
 
-4. ![](https://lh7-us.googleusercontent.com/H0n1Ds0fWZRznfOq8X1xpdSRaWmi3JsEYdBU7bxpvXucNLyQnzD01hnC-ks6rBFheueeInY9oE4zFJUl4O71oK8AWRFh6c3blZ_Mo3LU-FZbtleqm2db-N6BJQadp7LquFCwDaW60ZaGzWUk8W0y2gA)[Task-driven Autonomous Agent Utilizing GPT-4, Pinecone, and LangChain for Diverse Applications](https://yoheinakajima.com/task-driven-autonomous-agent-utilizing-gpt-4-pinecone-and-langchain-for-diverse-applications/)
+4. [Task-driven Autonomous Agent Utilizing GPT-4, Pinecone, and LangChain for Diverse Applications](https://yoheinakajima.com/task-driven-autonomous-agent-utilizing-gpt-4-pinecone-and-langchain-for-diverse-applications/)
 
 5. Wu, Q., Bansal, G., Zhang, J., Wu, Y., Zhang, S., Zhu, E., ... & Wang, C. (2023). Autogen: Enabling next-gen llm applications via multi-agent conversation framework. _arXiv preprint arXiv:2308.08155_.
 
