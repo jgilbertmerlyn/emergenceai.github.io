@@ -4,6 +4,7 @@ layout: base
 
 <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
   <header class="post-header">
+    <img src="{{- page.image | relative_url -}}" alt="" class="featured-image-post"></img>
     <h1 class="post-title p-name" itemprop="name headline">{{ page.title | escape }}</h1>
     <p class="post-meta">
       {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
@@ -27,7 +28,7 @@ layout: base
   </header>
   
   <div class="post-content e-content" itemprop="articleBody">
-    <img src="{{- page.image | relative_url -}}" alt="" class="featured-image-post"></img>
+
     {{ content }}
   </div>
   
