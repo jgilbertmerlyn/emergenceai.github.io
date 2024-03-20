@@ -48,7 +48,7 @@ We intend to advance the development of autonomous agents as an open-source proj
 
 Our aim is to unify the technical community around a singular definition of an agent and a singular framework for agent systems.
 
-Emergence’s first set of releases into the open source community include two web agents. The first allows computers to translate natural language commands into actions on web pages (like clicking on links, playing videos, or searching websites). The second is an example of a multi-tool agent framework, built on LLMs, in this case for visual math pedagogy. We are working on a general multi-tool agent framework, whose purpose is to enable tools and LLMs to be integrated into agent systems following our AOP framework. 
+Emergence’s first set of releases into the open source community include two web agents. The first allows computers to translate natural language commands into actions on web pages (like clicking on links, playing videos, or searching websites). The second is an example of a multi-tool agent system, built on LLMs, in this case for visual math pedagogy. We are working on a general multi-tool agent framework, whose purpose is to enable tools and LLMs to be integrated into agent systems following our AOP framework. 
 
 We are also working on releasing the first version of our self-improvement protocol for agents (_ref [2](https://blog.emergence.ai/2024/03/19/Self-improving-agents.html) & [3](https://blog.emergence.ai/2024/03/20/Building-narrow-self-improving-agents.html)_). We believe that such self-improvement functionalities within agents could eventually result in the emergence of truly autonomous agents and systems. 
 
