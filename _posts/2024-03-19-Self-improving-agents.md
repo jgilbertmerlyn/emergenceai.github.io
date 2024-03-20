@@ -6,7 +6,7 @@ A fundamental characteristic of an AI agent is its intelligence in taking action
 
 * **Narrow self-improvement**: In this category, an agent improves its performance within the context of a fixed operating environment or goal. A simple form of such narrow improvement is an LLM-based agent that monitors its own performance and can autonomously kick off a fine-tuning loop to retrain its LLM on a new dataset when it detects that its performance is deviating from an acceptable range. Such agents can adapt, for example, to data distribution mismatches without fundamental changes in agent architecture, training algorithm, etc.
 
-* **Broad self-improvement**: This category encompasses broader and more sophisticated modalities including agents that can create tools, modify their own architecture, and even create new agents. The latter has sometimes been termed recursive self-improvement, and it has been conjectured/feared to potentially enable “intelligence explosion” and/or “AI-takeoff” \[1, 2].
+* **Broad self-improvement**: This category encompasses broader and more sophisticated modalities including agents that can create tools, modify their own architecture, and even create new agents. The latter has sometimes been termed recursive self-improvement, and it has been conjectured/feared to potentially enable “intelligence explosion” and/or “AI-takeoff” <a href="#ref">\[1, 2]</a>.
 
 While these categories inevitably form a continuum (e.g. depending on how broadly the environment is defined), they offer one structured way of classifying specific self-improvement scenarios. To illustrate, let us consider a few examples:* Consider an agent that relies on progressive and adaptive data augmentation to self-improve. Such an augmentation loop may be quite sophisticated; it may involve the agent knowing when to invoke teacher models or humans to help with creating new data; it may also involve the agent autonomously reasoning about root-cause error analysis and what types of new data to generate to improve its performance. Nevertheless, as long as the agent is restricted to optimizing for a given goal, this would be an example of narrow self-improvement.
 
@@ -18,7 +18,7 @@ Now consider an agent that relies on data augmentation (as in our first example)
 
 Fundamentally, self-improvement can be abstracted into either acquisition or improvement of a variety of capabilities within the scope of an agent’s goals. Whether it is narrow or broad self-improvement, the acquisition and enhancement of capabilities need to done systematically to maximize the goal achievement, while ensuring that the capabilities learnt will not allow the agents to perform actions that violate the values the agent is expected to uphold.Value Alignment refers to the problem of ensuring that AI systems produce outcomes that are consistent with human values and preferences. While there has been much well-known recent work on the alignment of “static” non-self-improving agents, the problem of aligning self-improving agents is significantly harder and more critical.
 
-As a thought experiment, consider a formalized notion of intelligence defined in \[3], where $\mu$ is the environment and $\pi$ is the agent policy, the intelligence $\Upsilon$ is a discounted product of the Kolmogorov complexity $K$ of the environment and value function $V$.
+As a thought experiment, consider a formalized notion of intelligence defined in <a href="#ref">\[3]</a>, where $\mu$ is the environment and $\pi$ is the agent policy, the intelligence $\Upsilon$ is a discounted product of the Kolmogorov complexity $K$ of the environment and value function $V$.
 
  <img src="https://raw.githubusercontent.com/jgilbertmerlyn/emergenceai.github.io/main/_docs/_assets/_images/eq01.png" width="200px"
          alt="Equation 1.">
@@ -60,7 +60,7 @@ By continuously learning, adapting, and optimizing their actions, agents can mak
 
    - You should avoid a situation where your employees are predominantly from only one age/gender. This is a "forbidding state."
 
-#### **References**
+#### <a id="ref"></a>**References**
 
 \[1][ https://www.lesswrong.com/tag/recursive-self-improvement](https://www.lesswrong.com/tag/recursive-self-improvement)
 
