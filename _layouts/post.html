@@ -2,8 +2,6 @@
 layout: base
 ---
 
-<a href="blog.emergence.ai">Return to main feed</a>
-
 <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
   <img src="{{- page.image | relative_url -}}" alt="" class="featured-image-post"></img>
   <header class="post-header">
@@ -28,6 +26,8 @@ layout: base
         {% endfor %}
       {%- endif -%}</p>
   </header>
+
+  <a href="blog.emergence.ai">Return to main feed</a>
 
   <div class="post-content e-content" itemprop="articleBody">
     {{ content }}
