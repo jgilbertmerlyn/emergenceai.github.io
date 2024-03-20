@@ -1,10 +1,14 @@
-**Introduction:**
+---
+layout: page
+---
+
+## **Introduction:**
 
 The pivotal advancement in the ability of computers to understand language and develop functional world models has profoundly reset the landscape in computing. This will inevitably beget far-reaching societal impact, no small part of which is likely to be the fundamental rethinking of interaction between humans and machines.
 
 At the heart of this advance is the transformer architecture and the resulting large language models (LLMs) and large vision models (LVMs) built with it. While language understanding in machines has matured, their ability to plan and reason, as well as sense and understand the world needs to continue evolving to a point where machines can be truly transformative to the human endeavor. Fortunately, an emerging class of systems, called AI agents, based on LLMs and LVMs are beginning to show promise here. At Emergence AI, our mission is to advance this frontier of AI and build systems that reach a level of intelligence that truly unlocks the potential of AI to be beneficial to humanity.
 
-**LLM Agents:**
+## **LLM-Based Agents:**
 
 In venturing to understand why the new class of LLM-based AI agents is so promising, it might be illustrative to first define what they are. 
 
@@ -16,9 +20,11 @@ There has been a lot of research in this space over the last couple of decades. 
 
 We believe that in order for agents to be used to build truly intelligent, scalable systems, they must meet a specific benchmark in the characteristics they possess and the ways they organize together (**_ref 1: Anatomy of an agent_**). 
 
-|                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
-| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **The Definition of an Agent**An agent has _(ref 1)_:1) **Autonomy:** it is a self-operating, interactive entity with its own state, behavior, and decision-making capabilities.
+ **The Definition of an Agent**
+ 
+ An agent has _(ref 1)_:
+ 
+ 1) **Autonomy:** it is a self-operating, interactive entity with its own state, behavior, and decision-making capabilities.
 
 2) **Reactivity and Proactivity:** it is both reactive (meaning it can perceive its environment and respond to changes) and proactive (meaning it can take initiative in alignment with its goals).
 
@@ -34,7 +40,7 @@ Our AOP framework is inspired by the pillars of object-oriented programming (OOP
 
 We intend to advance the development of autonomous agents as an open-source project so that the community at large can benefit from and contribute to the project. We believe this is the safest and fastest way to advance the field of AI agents. 
 
-**Open-Source Releases**
+## **Open-Source Releases**
 
 Our aim is to unify the technical community around a singular definition of an agent and a singular framework for agent systems.
 
@@ -44,23 +50,23 @@ We are also working on releasing the first version of our self-improvement proto
 
 Our longer-term roadmap includes (a) the development of agents powered by LLMs and LVMs that will sit natively in devices like smartphones and laptops, and (b) the creation of agents that will perform back-office document-processing tasks like claims analysis and domain-specific summarization.
 
-**Task and Domain Specific LLMs**
+## **Task and Domain Specific LLMs**
 
 LLMs and LVMs act as the “brain” of the AI agent. Emergence will power our agents with our own fine-tuned LLMs and LVMs based primarily on open-source pre-trained models such as Mistral and LLaMA-2. The focus on fine-tuning pre-trained models, using them to power agents and other solutions efficiently, safely, and cost-effectively, is another core pillar of Emergence. 
 
 Our domain-specific models can be used both by agent-developers and application-makers as they scale their AI solutions. Each model is trained on the data of its specialized domain and will perform a variety of natural language processing tasks such as question-answering based on custom content and data, rubric-based summarization, video and image recommendation, transcript analysis, or assessment generation.
 
-**Voice Computing Platform**
+## **Voice Computing Platform**
 
 Our voice computing platform can accelerate the provisioning of voice interfaces for a variety of enterprises for controlling domain-specific tools and for the contextual retrieval of domain specific information. The platform currently powers AI assistants available on both laptops and front-of-the-room panels which controls various tools and technologies and provide a voice-based chat interface to the world of information relevant to the education domain.
 
 Historically, there have been two main barriers to the emergence of voice as an interface to computing, namely the inability of humans to successfully communicate with computers completely naturally and the inability of computers to perform more than just rudimentary actions. Thanks to the recent advances in AI, these two barriers have recently been removed. Thus, a fascinating offshoot of the advance of AI is that voice as an interface has the potential to finally mature, decades after it was envisioned, and Emergence has the existing building blocks to deliver on this promise.  
 
-**Intelligent Systems**
+## **Intelligent Systems**
 
 The final set of offerings from Emergence is a set of research, development and consulting services that allow end-customers to develop intelligent systems based on a composition of our offered agents and LLMs. Through our team’s decades long experiences in building some of the most widely scaled, enterprise-grade AI systems, we can help integrate into an enterprise’s ecosystem the self-operating solutions to given problems, automating relevant processes with the most apt in-house or third-party tools. 
 
-**Coda**
+## **Coda**
 
 There are several themes that we have not highlighted in this brief introductory document. These include our focus on:
 
