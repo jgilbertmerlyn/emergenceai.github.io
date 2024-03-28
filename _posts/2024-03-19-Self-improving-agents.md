@@ -1,5 +1,6 @@
 ---
 layout: page
+title: Self-improving agents.
 ---
 
 A fundamental characteristic of an AI agent is its intelligence in taking actions, checking outcomes against those actions, and improving itself if those actions result in divergence from its goals. Self-improvement, where an agent autonomously improves its own functioning, has intrigued the AI community for several decades.
