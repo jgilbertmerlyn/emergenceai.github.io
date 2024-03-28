@@ -1,5 +1,6 @@
 ---
 layout: page
+title: The anatomy of agents.
 ---
 
 The concept of a software agent can be traced back to the model Hewitt, et al. <a href="#ref">\[1]</a> proposed as representing a self-contained, interactive, and concurrently-executing object which was called an ‘actor.’ This object had some encapsulated internal state and could respond to messages from other similar objects: by Hewitt’s definition, an actor “is a computational agent which has a mail address and a behaviour. Actors communicate by message-passing and carry out their actions concurrently.”
