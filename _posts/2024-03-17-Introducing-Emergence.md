@@ -1,5 +1,6 @@
 ---
 layout: page
+title: Introducing Emergence.
 ---
 
 ## **Introduction:**
