@@ -126,7 +126,7 @@ How to precisely represent the state of the world, in this case state of the DOM
 
 {% include youtube.html id="q2QjcdeTsCo" %}<br />
 
-Our evaluation of the agent is inspired by WebArena \[1]. However, Web Arena performs its evaluation against static, curated, and self-hosted sites. However, we are using the wild web and approximating the evaluation. We are looking at ways to use a modified version of Web Arena to objectively evaluate our web agent.
+Our evaluation of the agent is inspired by WebArena \[1]. Web Arena, however, performs its evaluation against static, curated, and self-hosted sites. We are using the "wild web" and approximating our evaluation. We are looking at ways to use a modified version of Web Arena to objectively evaluate our web agent.
 
 ## Conclusion<a id="conclusion"></a>
 
@@ -134,9 +134,9 @@ In conclusion, Agent-E is built on the following key contributions:
 
 1. Intelligent DOM distillation where only the relevant parts of the DOM are retained based on the plan of action for the completion of the task. This ensures that only the relevant information about the webpage goes into the LLM context window for further processing.
 
-2. A scalable skills registry architecture where atomic actions or sensing mechanisms can be easily plugged in with their capability manifest and the agent automatically starts using that capability in the next set of task executions.
+2. A scalable skills registry architecture where atomic actions or sensing mechanisms can be easily plugged in with their capability manifest, and the agent automatically starts using that capability in the next set of task executions.
 
-We believe that highly capable web agents may be the path to extensive automation and perhaps lead toward general task-performing intelligence capabilities since a big part of our digital world including the apps and tools are web-based. However, we also believe that these generally capable web agents will co-exist with agents that are highly specialized on a very complex task that requires extreme accuracy and is mission critical. This presents a huge opportunity for enterprise workflow automation where the tools are increasingly web-based and the workflows are task-specific which lends itself to using a configurable agent architecture for automation.
+We believe that highly capable web agents may be the path to extensive automation. They could perhaps lead to the creation of general task-performing intelligence capabilities, seeing as a big part of our digital world is web-based. We also believe, however, that these generally capable web agents will co-exist with agents that are highly specialized toward some mission-critical complex task that requires extreme accuracy. This presents a huge opportunity for enterprise workflow automation, where the tools are increasingly web-based and workflows are task-specific, which lends itself to using a configurable agent architecture for automation.
 
 ## References<a id="references"></a>
 
