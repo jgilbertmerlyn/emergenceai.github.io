@@ -75,11 +75,12 @@ Only a small portion of the information in the DOM is relevant to any given task
 
 Given a task, the LLM is able to decide what specific DOM content it needs, “distilling” the DOM down to only the necessary elements. This distilled DOM is a hierarchical JSON document (except in the rare case of a text-only webpage) that can be sent to an LLM for predicate resolution, where a predicate is a step in the execution plan, such as identifying the text search field on this page.
 
+```
    {
       "tag": "button",
       "aria-label": "Skip navigation",
       "mmid": "898",
-      "description": "Skip navigation"
+      "description": "Skip navigation
     },
     {
       "role": "combobox",
@@ -92,12 +93,15 @@ Given a task, the LLM is able to decide what specific DOM content it needs, “d
       "placeholder": "Search",
       "mmid": "919"
     }
+```
 
-Sample DOM representation from YouTube
+(Sample DOM representation from YouTube).
 
 ### Planning & Reasoning<a id="planning--reasoning"></a>
 
 When the agent receives an utterance such as “Find Nothing Phone 2 on Amazon and sort the results by best seller,” its LLM prepares a plan of action. If some information is missing, the LLM can reason out that it needs more information from the user before moving forward with the plan. Then, before it can begin taking action, the agent actively decides what kind of sensing skills must be deployed to accurately prepare a plan of action.
+
+
 
 Sometimes, ambiguities (say, there are multiple variants of Nothing Phone 2 with various specifications) and unexpected challenges (say, a missing or broken search box on this page) may arise during execution. The LLM can adapt the plan based on this new information, or it can prompt the user for further clarification, such as, “Would you like me to sort the phones based on user rating or price?”
 
