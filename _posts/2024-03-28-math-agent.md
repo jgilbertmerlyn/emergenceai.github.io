@@ -1,5 +1,6 @@
 ---
 layout: page
+title: Distilling the web for multi-agent automation.
 ---
 
 ## Introduction<a id="introduction"></a>
