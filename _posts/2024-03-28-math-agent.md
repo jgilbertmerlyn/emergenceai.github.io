@@ -1,4 +1,8 @@
-### Introduction<a id="introduction"></a>
+---
+layout: page
+---
+
+## Introduction<a id="introduction"></a>
 
 Our everyday interactions with computers are filled with slow and repetitive tasks. Often, even if you know exactly what you’d like to accomplish on your device, it takes a certain amount of tedious labor (physical use of the mouse and keyboard) to reach your destination.
 
@@ -17,11 +21,8 @@ Soon, Emergence will release the code for this agent in the open source communit
 Our web agent architecture is built on the framework known as Agent-Oriented Programming (AOP), in which each agent in a system, at the minimum, adheres to four basic characteristics:
 
 1. Sensing: It can sense its environment.
-
 2. Processing: It processes the sensed signal from the environment using an intelligence engine driven by LLMs, LVMs, long-term memory modules, etc.
-
 3. Action: It can affect its external environment through tools or code.
-
 4. Self-improvement: It improves itself continuously at a given task as dictated by its constitution.
 
 For more details on the agent object model please refer to our previous blogs.
@@ -29,7 +30,7 @@ For more details on the agent object model please refer to our previous blogs.
 Definition of an Agent
 
 
-### Description<a id="description"></a>
+## Description<a id="description"></a>
 
 Our agent builds on a scalable array of atomic actions, which we call “skills.” The agent learns to use its skills as building blocks toward completing a large, complex workflow, as opposed to trying to learn the entire workflow as one construct. This affords our agent the ability to scale to other tasks, as the learned atomic actions which allow manipulation of a web page are reusable from one task to another.
 
@@ -38,14 +39,13 @@ What does changes between disparate tasks is the means by which these atomic act
 Architecture of Agent-E Interacting with Human Inputs and Webpage Execution
 
 
-#### Skills/Atomic Actions:<a id="skillsatomic-actions"></a>
+### Skills/Atomic Actions:<a id="skillsatomic-actions"></a>
 
 To select which skills to implement off the bat, we simply looked at how humans use the web. Together, these skills can perform a task and then return natural language text explaining the output.
 
 Giving the agent's outputs a conversational element yielded better results than if we were to have the agent return a boolean true/false. The natural language response also helped the LLM figure out how to course correct when errors occurred. Skills fall into two categories:
 
 - Sensing skills: These help the agent understand the state of the webpage or the browser.
-
 - Action skills: These allow the agent to act on a webpage or a browser.
 
 |                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |                                                                                                                                                                                                                                                                                                                                                                                                    |
@@ -61,8 +61,7 @@ Giving the agent's outputs a conversational element yielded better results than 
 |                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |                                                                                                                                                        _enter\_text_ - Enters text in a field specified by the provided DOM query selector.                                                                                                                                                        |
 |                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |                                                                                                                                                                       _openurl_ - Opens the given URL in current or new tab.                                                                                                                                                                       |
 
-
-#### DOM Distillation:<a id="dom-distillation"></a>
+### DOM Distillation:<a id="dom-distillation"></a>
 
 The size of the DOM can also have implications on the speed of processing, cost, and the quality of reasoning by the LLM. Hence DOM compaction/distillation is an important step of pre-processing to improve important language signals in the DOM before an LLM can process it.
 
@@ -77,62 +76,42 @@ Only a small portion of the information in the DOM is relevant to any given task
 Given a task, the LLM is able to decide what specific DOM content it needs, “distilling” the DOM down to only the necessary elements. This distilled DOM is a hierarchical JSON document (except in the rare case of a text-only webpage) that can be sent to an LLM for predicate resolution, where a predicate is a step in the execution plan, such as identifying the text search field on this page.
 
    {
-
       "tag": "button",
-
       "aria-label": "Skip navigation",
-
       "mmid": "898",
-
       "description": "Skip navigation"
-
     },
-
     {
-
       "role": "combobox",
-
       "name": "search\_query",
-
       "autocomplete": "list",
-
       "haspopup": "listbox",
-
       "value": "cat videos",
-
       "tag": "input",
-
       "tag\_type": "text",
-
       "placeholder": "Search",
-
       "mmid": "919"
-
     }
 
 Sample DOM representation from YouTube
 
-
-#### Planning & Reasoning<a id="planning--reasoning"></a>
+### Planning & Reasoning<a id="planning--reasoning"></a>
 
 When the agent receives an utterance such as “Find Nothing Phone 2 on Amazon and sort the results by best seller,” its LLM prepares a plan of action. If some information is missing, the LLM can reason out that it needs more information from the user before moving forward with the plan. Then, before it can begin taking action, the agent actively decides what kind of sensing skills must be deployed to accurately prepare a plan of action.
 
 Sometimes, ambiguities (say, there are multiple variants of Nothing Phone 2 with various specifications) and unexpected challenges (say, a missing or broken search box on this page) may arise during execution. The LLM can adapt the plan based on this new information, or it can prompt the user for further clarification, such as, “Would you like me to sort the phones based on user rating or price?”
 
-
-#### Extensible Architecture<a id="extensible-architecture"></a>
+### Extensible Architecture<a id="extensible-architecture"></a>
 
 Our web agent architecture is highly scalable and extensible. More skills can be added very easily by registering new skills using the Autogen framework \[2]. It then creates a JSON representation of the skills to make use of LLMs that support function calling. The verbose representation of skills, while advantageous, can consume a significant number of tokens. We are considering using a lightweight router that can provide a compact representation of the available skills to the LLM while exposing itself as a skill so that it maintains the skill registration and extension paradigm.
 
 How to precisely represent the state of the world, in this case state of the DOM, is an area of active exploration. The smaller the DOM slice shared with the LLM, the faster and cheaper the response will be. This might be achievable by adding other content types or better distillation techniques. A compact representation of the state will allow for smaller LLMs that are hosted locally to perform these tasks which could boost privacy and adoption.
 
-
-#### Evaluation<a id="evaluation"></a>
+### Evaluation<a id="evaluation"></a>
 
 Our evaluation of the agent is inspired by WebArena \[1]. However, Web Arena performs its evaluation against static, curated, and self-hosted sites. However, we are using the wild web and approximating the evaluation. We are looking at ways to use a modified version of Web Arena to objectively evaluate our web agent.
 
-
-### Conclusion<a id="conclusion"></a>
+## Conclusion<a id="conclusion"></a>
 
 In conclusion, Agent-E is built on the following key contributions:
 
@@ -142,8 +121,7 @@ In conclusion, Agent-E is built on the following key contributions:
 
 We believe that highly capable web agents may be the path to extensive automation and perhaps lead toward general task-performing intelligence capabilities since a big part of our digital world including the apps and tools are web-based. However, we also believe that these generally capable web agents will co-exist with agents that are highly specialized on a very complex task that requires extreme accuracy and is mission critical. This presents a huge opportunity for enterprise workflow automation where the tools are increasingly web-based and the workflows are task-specific which lends itself to using a configurable agent architecture for automation.
 
-
-### References<a id="references"></a>
+## References<a id="references"></a>
 
 \[1] Shuyan Zhou, Frank F. Xu, Hao Zhu, Xuhui Zhou, Robert Lo, Abishek Sridhar, Xianyi Cheng, Tianyue Ou, Yonatan Bisk, Daniel Fried, Uri Alon, Graham Neubig (2023). Webarena: A realistic web environment for building autonomous agents. _arXiv preprint arXiv:2307.13854_.
 
