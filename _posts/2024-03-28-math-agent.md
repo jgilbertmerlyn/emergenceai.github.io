@@ -12,6 +12,8 @@ Agents driven by LLMs and LVMs can, under the right circumstances, follow instru
 
 Emergence believes that an unprecedented amount of web automation can be achieved by using a general-purpose LLM and a properly compacted HTML DOM. This belief drove us to the creation you can read about below.
 
+{% include youtube.html id="zjYeULZW4Ao" %}
+
 **Agent-E**
 
 Emergence is proud to present our first web-interaction agent. This agent, which we’ve dubbed “Agent-E,” can control and complete tasks on a webpage based on natural language instruction. Through our testing, our agent has shown competence in things like e-commerce shopping, searching the web, and selecting for vetted content from specific websites. It’s also adept at form-filling (say, “Enter my information into this form my doctor sent me”), question-answering (“How much does X cost?”), and text-extraction (“What’s today’s top soccer news?”).
@@ -100,6 +102,7 @@ Given a task, the LLM is able to decide what specific DOM content it needs, “d
 When the agent receives an utterance such as “Find Nothing Phone 2 on Amazon and sort the results by best seller,” its LLM prepares a plan of action. If some information is missing, the LLM can reason out that it needs more information from the user before moving forward with the plan. Then, before it can begin taking action, the agent actively decides what kind of sensing skills must be deployed to accurately prepare a plan of action.
 
 {% include youtube.html id="VU3AQWGFMls" %}
+
 
 Sometimes, ambiguities (say, there are multiple variants of Nothing Phone 2 with various specifications) and unexpected challenges (say, a missing or broken search box on this page) may arise during execution. The LLM can adapt the plan based on this new information, or it can prompt the user for further clarification, such as, “Would you like me to sort the phones based on user rating or price?”
 
