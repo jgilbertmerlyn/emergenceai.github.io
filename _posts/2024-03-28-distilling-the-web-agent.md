@@ -33,7 +33,7 @@ For more details on the agent object model please refer to our previous blogs.
 <img src="https://raw.githubusercontent.com/jgilbertmerlyn/emergenceai.github.io/main/_docs/_assets/_images/agentanat.png" width="700"
          alt="Agent anatomy.">
 
-Definition of an Agent
+(Definition of an Agent).
 
 ## Description<a id="description"></a>
 
