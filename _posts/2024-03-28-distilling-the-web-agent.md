@@ -30,7 +30,7 @@ Our web agent architecture is built on the framework known as Agent-Oriented Pro
 
 For more details on the agent object model please refer to our previous blogs.
 
-<img src="https://raw.githubusercontent.com/jgilbertmerlyn/emergenceai.github.io/main/_docs/_assets/_images/agent-e.png" width="700"
+<img src="https://raw.githubusercontent.com/jgilbertmerlyn/emergenceai.github.io/main/_docs/_assets/_images/agentanat.png" width="700"
          alt="Agent anatomy.">
 
 Definition of an Agent
@@ -42,7 +42,7 @@ Our agent builds on a scalable array of atomic actions, which we call “skills.
 What does changes between disparate tasks is the means by which these atomic actions are stitched together. Our agent’s intelligence layer, driven by an LLM, learns how to stitch these atomic actions together and in what order for each task at hand.
 
 <img src="https://raw.githubusercontent.com/jgilbertmerlyn/emergenceai.github.io/main/_docs/_assets/_images/agent-e.png" width="700"
-         alt="Agent anatomy.">
+         alt="Agent-E architecture.">
 
 (Architecture of Agent-E interacting with human inputs and webpage execution).
 
@@ -75,6 +75,9 @@ The size of the DOM can also have implications on the speed of processing, cost,
 HTML DOMs can be so large that, often, they do not fit in an LLM’s context window and are therefore unusable by the LLM.
 
 The image below shows the number of tokens required to represent the raw HTML of popular websites, compared with the tokens needed after our distillation process.
+
+<img src="https://raw.githubusercontent.com/jgilbertmerlyn/emergenceai.github.io/main/_docs/_assets/_images/tokens.png" width="700"
+         alt="Tokens required, graphed.">
 
 We train the agent to approach the DOM in a way that is modeled after a human approaching a website.
 
