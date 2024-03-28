@@ -31,7 +31,6 @@ For more details on the agent object model please refer to our previous blogs.
 
 Definition of an Agent
 
-
 ## Description<a id="description"></a>
 
 Our agent builds on a scalable array of atomic actions, which we call “skills.” The agent learns to use its skills as building blocks toward completing a large, complex workflow, as opposed to trying to learn the entire workflow as one construct. This affords our agent the ability to scale to other tasks, as the learned atomic actions which allow manipulation of a web page are reusable from one task to another.
@@ -39,7 +38,6 @@ Our agent builds on a scalable array of atomic actions, which we call “skills.
 What does changes between disparate tasks is the means by which these atomic actions are stitched together. Our agent’s intelligence layer, driven by an LLM, learns how to stitch these atomic actions together and in what order for each task at hand.
 
 Architecture of Agent-E Interacting with Human Inputs and Webpage Execution
-
 
 ### Skills/Atomic Actions:<a id="skillsatomic-actions"></a>
 
@@ -62,6 +60,8 @@ Giving the agent's outputs a conversational element yielded better results than 
                          
 
 ### DOM Distillation:<a id="dom-distillation"></a>
+
+{% include youtube.html id="B5PWBNBbmQU" %}
 
 The size of the DOM can also have implications on the speed of processing, cost, and the quality of reasoning by the LLM. Hence DOM compaction/distillation is an important step of pre-processing to improve important language signals in the DOM before an LLM can process it.
 
@@ -113,6 +113,8 @@ Our web agent architecture is highly scalable and extensible. More skills can be
 How to precisely represent the state of the world, in this case state of the DOM, is an area of active exploration. The smaller the DOM slice shared with the LLM, the faster and cheaper the response will be. This might be achievable by adding other content types or better distillation techniques. A compact representation of the state will allow for smaller LLMs that are hosted locally to perform these tasks which could boost privacy and adoption.
 
 ### Evaluation<a id="evaluation"></a>
+
+{% include youtube.html id="q2QjcdeTsCo" %}
 
 Our evaluation of the agent is inspired by WebArena \[1]. However, Web Arena performs its evaluation against static, curated, and self-hosted sites. However, we are using the wild web and approximating the evaluation. We are looking at ways to use a modified version of Web Arena to objectively evaluate our web agent.
 
