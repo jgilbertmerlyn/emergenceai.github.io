@@ -38,7 +38,10 @@ Our agent builds on a scalable array of atomic actions, which we call “skills.
 
 What does changes between disparate tasks is the means by which these atomic actions are stitched together. Our agent’s intelligence layer, driven by an LLM, learns how to stitch these atomic actions together and in what order for each task at hand.
 
-Architecture of Agent-E Interacting with Human Inputs and Webpage Execution
+    <img src="https://raw.githubusercontent.com/jgilbertmerlyn/emergenceai.github.io/main/_docs/_assets/_images/agent-e.png" width="700"
+         alt="Agent anatomy.">
+
+(Architecture of Agent-E interacting with human inputs and webpage execution).
 
 ### Skills/Atomic Actions:<a id="skillsatomic-actions"></a>
 
