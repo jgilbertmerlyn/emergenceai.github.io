@@ -48,6 +48,8 @@ What does changes between disparate tasks is the means by which these atomic act
 
 ### Skills/Atomic Actions:<a id="skillsatomic-actions"></a>
 
+{% include youtube.html id="VU3AQWGFMls" %}<br />
+
 To select which skills to implement off the bat, we simply looked at how humans use the web. Together, these skills can perform a task and then return natural language text explaining the output.
 
 Each skill, whether it failed or succeeded in a given moment, responded afterwards with natural language that indicated that success or failure along with potential reason(s). Making the skills' outputs more conversational yielded better results than returning a boolean true/false (indicating success/failure). The natural language response helped the LLM figure out how to course correct when errors occurred. 
@@ -112,9 +114,6 @@ Given a task, the LLM is able to decide what specific DOM content it needs, “d
 ### Planning & Reasoning<a id="planning--reasoning"></a>
 
 When the agent receives an utterance such as “Find Nothing Phone 2 on Amazon and sort the results by best seller,” its LLM prepares a plan of action. If some information is missing, the LLM can reason out that it needs more information from the user before moving forward with the plan. Then, before it can begin taking action, the agent actively decides what kind of sensing skills must be deployed to accurately prepare a plan of action.
-
-{% include youtube.html id="VU3AQWGFMls" %}<br />
-
 
 Sometimes, ambiguities (say, there are multiple variants of Nothing Phone 2 with various specifications) and unexpected challenges (say, a missing or broken search box on this page) may arise during execution. The LLM can adapt the plan based on this new information, or it can prompt the user for further clarification, such as, “Would you like me to sort the phones based on user rating or price?”
 
