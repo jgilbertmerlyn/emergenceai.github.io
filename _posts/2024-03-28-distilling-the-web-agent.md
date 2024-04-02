@@ -50,7 +50,9 @@ What does changes between disparate tasks is the means by which these atomic act
 
 To select which skills to implement off the bat, we simply looked at how humans use the web. Together, these skills can perform a task and then return natural language text explaining the output.
 
-Giving the agent's outputs a conversational element yielded better results than if we were to have the agent return a boolean true/false. The natural language response also helped the LLM figure out how to course correct when errors occurred. Skills fall into two categories:
+Each skill, whether it failed or succeeded in a given moment, responded afterwards with natural language that indicated that success or failure along with potential reason(s). Making the skills' outputs more conversational yielded better results than returning a boolean true/false (indicating success/failure). The natural language response helped the LLM figure out how to course correct when errors occurred. 
+
+Skills fall into two categories:
 
 - Sensing skills: These help the agent understand the state of the webpage or the browser.
 - Action skills: These allow the agent to act on a webpage or a browser.
@@ -137,6 +139,8 @@ In conclusion, Agent-E is built on the following key contributions:
 2. A scalable skills registry architecture where atomic actions or sensing mechanisms can be easily plugged in with their capability manifest, and the agent automatically starts using that capability in the next set of task executions.
 
 We believe that highly capable web agents may be the path to extensive automation. They could perhaps lead to the creation of general task-performing intelligence capabilities, seeing as a big part of our digital world is web-based. We also believe, however, that these generally capable web agents will co-exist with agents that are highly specialized toward some mission-critical complex task that requires extreme accuracy. This presents a huge opportunity for enterprise workflow automation, where the tools are increasingly web-based and workflows are task-specific, which lends itself to using a configurable agent architecture for automation.
+
+Our [code is now live and open-source on GitHub](https://github.com/EmergenceAI/Agent-E), where we invite you to collaborate with us and where we have an ambitious [list of to-dos](https://github.com/EmergenceAI/Agent-E?tab=readme-ov-file#todo).
 
 ## References<a id="references"></a>
 
